@@ -1,0 +1,155 @@
+@media(max-width:425px){
+   .nav{
+    position: relative;
+    padding-top: 20px;
+
+   }
+    .nav-left-item{
+        height: 50px;
+        flex-basis: 20%;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .logo{
+        width: 40px;
+        height: 50px;
+    }
+    .nav-right-item{
+        height: 50px;
+        flex-basis: 65%;
+        align-items: center;
+        justify-content: end;
+    }
+    span{
+        display: none;
+    }
+
+    .list-icon-right{
+    width:15%;
+    width: 40px;
+        height: 50px;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.section{
+    width: 100%;
+    margin: auto 0;
+    margin-left: 15px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    
+
+}
+.header-text-1{
+    margin: 0 ;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+text-align: start;
+}
+.button-box{
+margin: 0;
+margin-top: 10px;
+}
+.button{ 
+  width: 180px;
+  height: 40px;
+margin: 0 ;
+}
+
+.box-1{display: none;
+}
+.box-2{display: none;
+}
+
+
+
+.section-text-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+.section-text-2{
+    display: none ;
+}
+
+.section-2-text{
+    width: 80%;
+}
+.footer{
+    padding: 20px;
+   display: block;
+    
+   
+}
+
+
+.footer-1{
+    width: 100%;
+}
+.footer-2{
+    width: 100%;
+}
+.footer-3{
+    width: 100%;
+}
+.footer-4{
+    width: 100%;
+}
+
+.icon-1{margin: 0 auto;}
+.icon-2{margin: 0 auto;}
+.icon-3{margin: 0 auto; }
+.icon-4{ margin: 0 auto; }
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-img{
+    padding: 20px;
+    margin-top: 45px;
+    width: 100%;
+    height: 560px;
+    grid-gap: 15px;
+grid-template-areas: 
+'im im um um'
+'im im om om'
+'am am am am'
+'am am am am'
+;
+}
+.im{
+    display: block;
+}
+.em{display: none;}
+.bm{display: none;}
+.dm{display: none;}
+.vm{display: none;}
+
+
+}
+
+
+
+
+
+
+
+
+
